@@ -47,6 +47,3 @@ The page will reload if you make edits. You will also see any lint errors in the
 
 ## Authors
 Rithvik grandhi - https://github.com/rithvikgrandhi
-
-## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
