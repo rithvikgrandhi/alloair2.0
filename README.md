@@ -1,5 +1,7 @@
 # React Meal Ordering App
 
+## You can view the hosted app here: `https://alloair2-0.vercel.app/`
+
 This project is a React-based meal ordering application that allows users to select meals, drinks, and passengers, and view the total cost of their selections.
 
 ## Features
