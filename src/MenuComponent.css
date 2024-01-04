@@ -1,0 +1,110 @@
+/* MenuComponent.css */
+.menu-container {
+    font-family: Arial, sans-serif;
+    max-width: 60%;
+    margin: 20px 0 20px 20px;
+    padding: 20px;
+  }
+  
+  .meal {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: stretch; /* Ensures children stretch to fill the container */
+    overflow: hidden;
+  }
+  
+  
+  .meal-image {
+    /* ... styles for the meal image ... */
+    flex-shrink: 0; /* Prevent the image from shrinking */
+    width: 150px; /* Adjust as needed */
+    object-fit: cover;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  
+  .meal-details {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  
+  .meal h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 0.5em;
+  }
+  
+  .meal p {
+    color: #666;
+    margin-bottom: 0.5em;
+  }
+  
+  .drink-button {
+    padding: 10px;
+    min-height: 90px;
+    min-width: 90px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #007bff;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px; /* Space between buttons */
+  }
+  
+  .drink-button:hover,
+  .drink-button.selected {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .drinks-container {
+    /* padding-right: 25%; */
+    display: flex;
+    align-items: center; /* Center buttons vertically */
+    justify-content: flex-start; /* Align buttons to the start */
+    flex-wrap: wrap; /* Wrap buttons */
+    gap: 10px; /* Space between buttons */
+    margin-top: auto; /* Push to the center vertically */
+    margin-bottom: auto;
+  }
+  
+  .select-button {
+    background-color: #007bff;
+    color: white;
+    max-width: 100px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    flex-grow: 1;
+    align-self: stretch; /* Make the button take up the full height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .total-price-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 1000;
+  }
+  
