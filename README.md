@@ -22,7 +22,7 @@ To get the application running, follow these steps:
 
 ### Clone the repository:
 ```
-git clone [https://your-repository-url.git](https://github.com/rithvikgrandhi/alloair2.0)
+git clone https://github.com/rithvikgrandhi/alloair2.0
 ```
 
 ### Navigate to the project directory:
