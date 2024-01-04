@@ -22,12 +22,12 @@ To get the application running, follow these steps:
 
 ### Clone the repository:
 ```
-git clone https://your-repository-url.git
+git clone [https://your-repository-url.git](https://github.com/rithvikgrandhi/alloair2.0)
 ```
 
 ### Navigate to the project directory:
 ```
-cd path-to-your-project
+cd alloair2.0
 ```
 
 ### Install dependencies:
